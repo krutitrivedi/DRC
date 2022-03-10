@@ -54,6 +54,7 @@ class DataModel: NSObject {
 
         }
         //notify to viewcontroller
+        delegate?.didRecieveDataUpdata(data: titleArray)
     }
     
     
